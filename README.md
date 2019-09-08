@@ -9,7 +9,13 @@ Program that detects sounds during your sleep (talking, snoring, lunatism etc).
 
 3. Program extracts parts of data where the sound is detected and returns those parts to the caller together with timestamp where it was found.
 
+### how-to-run
+To run it you'll need to have docker and docker-compose installed on your machine.
+Then in root directory run:
 
+```
+docker-compose up
+```
 
 ### technologies used
 
